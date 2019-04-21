@@ -45,13 +45,13 @@ public class PolyTest {
             Cat temp = (Cat) cat;
             temp.run();
             temp.eat();
-            System.out.println("two 可以转为Cat类型");
+            System.out.println("cat 可以转为Cat类型");
         }
 
-        else if (dog instanceof Dog){
-            Dog temp2 = (Dog) dog;
+        else if (cat instanceof Dog){
+            Dog temp2 = (Dog) cat;
             temp2.eat();
-            System.out.println("two 可以转为Dog类型");
+            System.out.println("cat 可以转为Dog类型");
         }
         else
             System.out.println("结束");
