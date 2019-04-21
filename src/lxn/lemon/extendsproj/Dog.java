@@ -1,4 +1,4 @@
-package lxn.lemon.animal;
+package lxn.lemon.extendsproj;
 
 /**
  * Author: Lemon

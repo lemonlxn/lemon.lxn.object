@@ -1,8 +1,8 @@
 package lxn.lemon.test;
 
-import lxn.lemon.animal.Cat;
+import lxn.lemon.extendsproj.Cat;
 
-public class AnimalTest {
+public class ExtendsTest {
 
     public static void main(String[] args) {
 
@@ -22,13 +22,6 @@ public class AnimalTest {
 
         System.out.println(cat1.toString());
         System.out.println(cat1);
-
-
-
-
-
-
-
 
         
 

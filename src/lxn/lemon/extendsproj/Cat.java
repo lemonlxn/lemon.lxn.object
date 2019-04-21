@@ -1,4 +1,4 @@
-package lxn.lemon.animal;
+package lxn.lemon.extendsproj;
 
 public class Cat extends Animal{
 
