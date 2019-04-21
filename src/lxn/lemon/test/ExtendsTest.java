@@ -12,7 +12,7 @@ public class ExtendsTest {
         Cat cat2 = new Cat("lemon",3,2);
 
         boolean flag = cat1.equals(cat2);
-        System.out.println(flag); // 继承Object 对象，比较的是内存地址是否一致；
+        System.out.println(flag); // 继承Object 对象，比较的是内存地址是否一致 ；
 
         String str1 = new String("hello");
         String str2 = new String("hello");
