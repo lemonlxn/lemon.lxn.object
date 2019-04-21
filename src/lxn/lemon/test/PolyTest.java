@@ -4,6 +4,7 @@ package lxn.lemon.test;
 import lxn.lemon.polyproj.Animal;
 import lxn.lemon.polyproj.Cat;
 import lxn.lemon.polyproj.Dog;
+import lxn.lemon.polyproj.Master;
 
 /**
  * Author: Lemon
@@ -21,13 +22,13 @@ public class PolyTest {
          *    无法调用子类独有方法
          */
 
-        Animal one   =  new Animal();
-        Animal two   =  new Cat();
-        Animal three =  new Dog();
+        Animal animal   =  new Animal();
+        Animal cat      =  new Cat();
+        Animal dog      =  new Dog();
 
-        one.eat();      // 动物都有吃东西的能力
-        two.eat();      // 猫吃鱼～
-        three.eat();    // 小狗吃肉～
+        animal.eat();      // 动物都有吃东西的能力
+        cat.eat();         // 猫吃鱼～
+        dog.eat();         // 小狗吃肉～
 
         System.out.println("========================");
 
@@ -40,21 +41,31 @@ public class PolyTest {
          *      temp2 是 Dog 子类引用，不能指向 Cat 实例
          */
 
-
-        if (two instanceof Cat){
-            Cat temp = (Cat) two;
+        if (cat instanceof Cat){
+            Cat temp = (Cat) cat;
             temp.run();
             temp.eat();
             System.out.println("two 可以转为Cat类型");
         }
 
-        else if (two instanceof Dog){
-            Dog temp2 = (Dog) two;
+        else if (dog instanceof Dog){
+            Dog temp2 = (Dog) dog;
             temp2.eat();
             System.out.println("two 可以转为Dog类型");
         }
         else
             System.out.println("结束");
+
+        System.out.println("========================");
+
+        /**
+         * 根据对象类型的不同，返回相应的结果
+         */
+
+        Master master = new Master();
+        master.feed(cat);
+        master.feed(dog);
+
 
 
 
