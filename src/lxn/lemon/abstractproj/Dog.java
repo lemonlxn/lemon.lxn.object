@@ -1,13 +1,11 @@
-package lxn.lemon.polyproj;
-
-
+package lxn.lemon.abstractproj;
 
 /**
  * Author: Lemon
  * Time :  2019-04-21 12:25
  */
 
-public  class Dog extends Animal {
+public class Dog extends Animal {
     private String sex;
 
     public Dog(){

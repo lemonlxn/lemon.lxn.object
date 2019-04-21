@@ -1,6 +1,4 @@
-package lxn.lemon.polyproj;
-
-
+package lxn.lemon.abstractproj;
 
 /**
  * Author: Lemon

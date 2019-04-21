@@ -14,7 +14,7 @@ public class Animal {
 
     }
 
-    public Animal(String name,int month){
+    public Animal(String name, int month){
         this.setName(name);
         this.setMonth(month);
     }
