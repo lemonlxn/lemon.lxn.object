@@ -3,7 +3,7 @@ package lxn.lemon.extendsproj;
 public class Cat extends Animal{
 
     private double weight;
-    public static int price = 20; // 静态成员，或 类成员
+    public static int price = 20; // 静态成员，或  类成员
 
     public Cat(){
         System.out.println("I am cat");

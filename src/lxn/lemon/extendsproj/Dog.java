@@ -5,7 +5,7 @@ package lxn.lemon.extendsproj;
  * Time :  2019-04-20 16:22
  */
 public class Dog extends Animal {
-    private String species;
+    private String  species;
 
     public Dog(){
 
