@@ -29,7 +29,7 @@ public class PolyTest {
         two.eat();      // 猫吃鱼～
         three.eat();    // 小狗吃肉～
 
-        
+
 
 
     }

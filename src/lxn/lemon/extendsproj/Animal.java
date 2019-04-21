@@ -3,7 +3,7 @@ package lxn.lemon.extendsproj;
 /**
  * Author: Lemon
  * Time :  2019-04-19 10:18
- * 特点 ：  研究继承特性
+ * 特点 ：  新增继承特性
  */
 
 public class Animal {
