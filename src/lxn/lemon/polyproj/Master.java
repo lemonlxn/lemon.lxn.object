@@ -8,7 +8,7 @@ public class Master {
     /**
      * 编写方法传入动物的父类，方法中通过类型转换，调用指定子类的方法
      * 1. Cat temp = (Cat) obj;   temp.run();   等同于下行
-     *    ((Cat) obj).run();
+     *    ((Cat) obj).run(); 
      * 2.  Dog temp2 = (Dog) obj; temp2.sleep(); 等同于下行
      *    ((Dog) obj).sleep();
      */

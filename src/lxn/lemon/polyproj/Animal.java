@@ -37,6 +37,6 @@ public class Animal {
 
 
     public void eat(){
-        System.out.println("动物都有吃东西的能力");
+        System.out.println("动物都有吃东西的能力 ");
     }
 }

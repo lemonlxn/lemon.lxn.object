@@ -35,6 +35,6 @@ public class Cat extends Animal {
 
 
     public void run(){
-        System.out.println("小猫快乐的奔跑");
+        System.out.println("小猫快乐的奔跑 ");
     }
 }
