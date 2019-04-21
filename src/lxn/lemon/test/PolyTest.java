@@ -27,7 +27,26 @@ public class PolyTest {
 
         one.eat();      // 动物都有吃东西的能力
         two.eat();      // 猫吃鱼～
-        three.eat();    // 小狗吃肉～ 
+        three.eat();    // 小狗吃肉～
+
+        System.out.println("========================");
+
+        /** 向下转型 (强制类型转换) ：类型需要被强制转换
+         *  1.子类引用，指向父类对象。
+         *    可以调用子类特有的方法
+         *  2.类型强制转换，需要是父与子的关系，而不是兄弟关系。
+         *  3.其他注意点：
+         *      temp  是 Cat 子类引用，   指向 Cat 实例
+         *      temp2 是 Dog 子类引用，不能指向 Cat 实例
+         */
+
+
+        Cat temp = (Cat) two;
+        temp.run();
+        temp.eat();
+
+//        Dog temp2 = (Dog) two;
+//        temp2.eat();
 
 
 
