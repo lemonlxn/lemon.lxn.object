@@ -41,12 +41,20 @@ public class PolyTest {
          */
 
 
-        Cat temp = (Cat) two;
-        temp.run();
-        temp.eat();
+        if (two instanceof Cat){
+            Cat temp = (Cat) two;
+            temp.run();
+            temp.eat();
+            System.out.println("two 可以转为Cat类型");
+        }
 
-//        Dog temp2 = (Dog) two;
-//        temp2.eat();
+        else if (two instanceof Dog){
+            Dog temp2 = (Dog) two;
+            temp2.eat();
+            System.out.println("two 可以转为Dog类型");
+        }
+        else
+            System.out.println("结束");
 
 
 
