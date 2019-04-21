@@ -15,6 +15,7 @@ import lxn.lemon.polyproj.Master;
 public class PolyTest {
     public static void main(String[] args) {
         /** 向上转型  (隐式转型、自动转型) ：小类转为大类
+         *
          *  1.父类引用，指向子类实例
          *    (或者说) 将子类对象，转为父类对象
          *
