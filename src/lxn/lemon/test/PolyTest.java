@@ -27,7 +27,7 @@ public class PolyTest {
 
         one.eat();      // 动物都有吃东西的能力
         two.eat();      // 猫吃鱼～
-        three.eat();    // 小狗吃肉～
+        three.eat();    // 小狗吃肉～ 
 
 
 
